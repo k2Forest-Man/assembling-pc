@@ -269,3 +269,74 @@ h6 {
 .work-desc {
   line-height: 160%;
 }
+
+/* section class="process" */
+
+.process {
+  padding-bottom: 20rem;
+  position: relative;
+}
+
+.process-title {
+  display: flex;
+  margin-bottom: 5.1rem;
+}
+
+.process-img {
+  width: 9.5rem;
+  height: 4.5rem;
+  margin-right: 3rem;
+}
+
+.process-header {
+  padding-top: 2.5rem;
+  font-weight: 700;
+  font-size: 4.9rem;
+  line-height: 140%;
+}
+
+.process-desc {
+  max-width: 41.1rem;
+  line-height: 160%;
+  opacity: 0.5;
+  margin-bottom: 8rem;
+}
+
+.process-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.process-columns::after {
+  content: '';
+  display: block;
+  width: 129.6rem;
+  height: 0.2rem;
+  position: absolute;
+  top: 34rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.column-item {
+  min-width: 30.6rem;
+}
+
+.column-item:not(:last-child) {
+  margin-right: 1.8rem;
+}
+
+.header-column {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 140%;
+  margin-bottom: 6.5rem;
+}
+
+.text-column {
+  font-size: 1.4rem;
+  line-height: 160%;
+  opacity: 0.5;
+}
+
