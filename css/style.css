@@ -98,9 +98,9 @@ h6 {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 114%;
-  /* display: grid;
+  display: grid;
   grid-template-rows: min-content 1fr min-content;
-  align-content: start; */
+  align-content: start;
   color: var(--basic-white);
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(6, 6, 6, 1) 35%);
 
@@ -405,4 +405,61 @@ h6 {
 .our-team-link {
   border: 0.1rem solid #FFFFFF;
   line-height: 150%;
+}
+
+/* FOOTER section class="assembly"*/
+
+.assembly {
+  padding-bottom: 24.4rem;
+}
+
+.assembly-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.assembly-header {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 140%;
+  margin-bottom: 3rem;
+}
+
+.assembly-desc {
+  line-height: 160%;
+  opacity: 0.5;
+  margin-bottom: 4.5rem;
+}
+
+.assembly-btn {
+  background-image: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  margin-bottom: 4.1rem;
+}
+
+.assembly-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.assembly-socials-item img {
+  width: 50%;
+  height: 50%;
+}
+
+.assembly-socials-item {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.assembly-socials-item:not(:last-child) {
+  margin-right: 3rem;
 }
