@@ -340,3 +340,69 @@ h6 {
   opacity: 0.5;
 }
 
+/* section class="our-team" */
+
+.our-team {
+  padding-bottom: 20rem;
+}
+
+.our-team-title {
+  display: flex;
+  margin-bottom: 11.3rem;
+}
+
+.our-team-logo {
+  width: 9.5rem;
+  height: 4.5rem;
+  margin-right: 3.9rem;
+}
+
+.our-team-logo img {
+  transform: rotate(-45deg);
+}
+
+.our-team-header {
+  padding-top: 2.5rem;
+  font-weight: 700;
+  font-size: 4.9rem;
+  line-height: 140%;
+}
+
+.our-team-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.our-team-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our-team-img {
+  width: 19rem;
+  height: 19rem;
+  margin-bottom: 4rem;
+  border-radius: 50%;
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 140%;
+  margin-bottom: 1.5rem;
+}
+
+.our-team-professional {
+  line-height: 160%;
+  opacity: 0.8;
+  margin-bottom: 3rem;
+}
+
+.our-team-link {
+  border: 0.1rem solid #FFFFFF;
+  line-height: 150%;
+}
