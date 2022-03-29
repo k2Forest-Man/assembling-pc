@@ -96,6 +96,7 @@ h6 {
 
 .page {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .page-body {
