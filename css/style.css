@@ -565,10 +565,10 @@ input::-webkit-input-placeholder {
   background-image: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
 
-/* Класс убирающий скролл страницы!! */
 .noscroll {
-  overflow-y: scroll;
-  height: 100vh;
+  overflow: hidden;
+  height: 100%;
 }
 
+/* Класс убирающий скролл страницы!! */
 /* overflow-y: scroll; - фиксируем скролл справа */
