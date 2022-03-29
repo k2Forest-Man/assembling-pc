@@ -78,7 +78,7 @@ h6 {
   --basic-white: #ffffff;
   --background-timer-item: #121212;
   --background-color-modal: #2c2c2c;
-  --background-modal-input: rgba(255,255,255, 0.25);
+  --background-modal-input: rgba(255, 255, 255, 0.25);
 }
 
 .block-center {
@@ -540,6 +540,16 @@ h6 {
   font-size: 1.4rem;
   line-height: 160%;
   padding-left: 3rem;
+}
+
+input::-moz-placeholder {
+  color: var(--basic-white);
+  opacity: 0.8;
+}
+
+input::-webkit-input-placeholder {
+  color: var(--basic-white);
+  opacity: 0.8;
 }
 
 .modal-close-button {
