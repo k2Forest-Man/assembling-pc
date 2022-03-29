@@ -77,6 +77,14 @@ h6 {
 :root {
   --basic-white: #ffffff;
   --background-timer-item: #121212;
+  --background-color-modal: #2c2c2c;
+}
+
+.block-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Index */
@@ -107,6 +115,10 @@ h6 {
 }
 
 /* Index */
+
+.main {
+  position: relative;
+}
 
 .container {
   width: 130rem;
@@ -463,3 +475,84 @@ h6 {
 .assembly-socials-item:not(:last-child) {
   margin-right: 3rem;
 }
+
+/* modal window */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 10;
+  padding: 3rem 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.modal-inner {
+  width: 66.3rem;
+  padding: 9rem;
+  background-color: var(--background-color-modal);
+  text-align: center;
+  position: relative;
+}
+
+.modal-header {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 140%;
+  margin-bottom: 1rem;
+}
+
+.modal-desc {
+  line-height: 160%;
+  opacity: 0.5;
+  margin-bottom: 2.8rem;
+}
+
+.modal-elements {
+  width: 45.5rem;
+  margin: 0 auto;
+}
+
+.modal-item {
+  height: 4.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.modal-item:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+
+.modal-input {
+  background: rgba(255,255,255, 0.25);
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+  font-size: 1.4rem;
+  line-height: 160%;
+  padding: 1.8rem;
+}
+
+.modal-close-button {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.modal-btn {
+  background-image: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+/* Класс убирающий скролл страницы!! */
+.noscroll {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* overflow-y: scroll; - фиксируем скролл справа */

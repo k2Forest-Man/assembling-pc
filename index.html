@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <title>Собираем игровой ПК</title>
+  <script src="js/main.js" defer></script>
 </head>
 
 <body class="page-body">
@@ -188,6 +189,30 @@
         </div>
       </div>
     </section>
+
+    <form action="#" class="modal block-center">
+      <div class="modal-inner block-center">
+        <div class="modal-close-button">
+          <img src="img/button-close-modal.svg" alt="Кнопка закрытия модального окна">
+        </div>
+        <h3 class="modal-header">Заявка на сборку ПК</h3>
+        <div class="modal-desc">Мы свяжемся с вами, чтобы обсудить детали заказа</div>
+        <div class="modal-elements">
+          <div class="modal-item">
+            <input type="text" class="modal-input" placeholder="Как вас зовут">
+          </div>
+
+          <div class="modal-item">
+            <input type="tel" class="modal-input" placeholder="Номер телефона">
+          </div>
+
+          <div class="modal-item">
+            <input type="email" class="modal-input" placeholder="E-mail">
+          </div>
+        </div>
+        <button type="submit" class="btn modal-btn modal-button">Отправить</button>
+      </div>
+    </form>
   </main>
 
   <footer class="main-footer">
