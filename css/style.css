@@ -78,6 +78,7 @@ h6 {
   --basic-white: #ffffff;
   --background-timer-item: #121212;
   --background-color-modal: #2c2c2c;
+  --background-modal-input: rgba(255,255,255, 0.25);
 }
 
 .block-center {
@@ -526,14 +527,19 @@ h6 {
   margin-bottom: 1.8rem;
 }
 
+.modal-item input {
+  color: var(--basic-white);
+  opacity: 0.8;
+}
+
 .modal-input {
-  background: rgba(255,255,255, 0.25);
+  background: var(--background-modal-input);
   width: 100%;
   height: 100%;
   border-radius: 5rem;
   font-size: 1.4rem;
   line-height: 160%;
-  padding: 1.8rem;
+  padding-left: 3rem;
 }
 
 .modal-close-button {
