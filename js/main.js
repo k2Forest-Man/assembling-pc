@@ -1,5 +1,5 @@
 const modalWindow = document.querySelector('.modal')
-const buttonModals = document.querySelectorAll('.btn')
+const buttonModals = document.querySelectorAll('.modal-button')
 const modalCloseButton = document.querySelector('.modal-close-button')
 const pageBody = document.querySelector('body')
 
